@@ -1,11 +1,11 @@
 #include "Utils/Log.h"
-#include "Running1dArray.h"
-#include "RichestCustomerWealth.h"
-#include "FizzBuzz.h"
-#include "NumberOfStepsToZero.h"
-#include "MiddleLinkedList.h"
-#include "RansomNote.h"
-#include "TwoSumTarget.h"
+#include "src/Running1dArray.h"
+#include "src/RichestCustomerWealth.h"
+#include "src/FizzBuzz.h"
+#include "src/NumberOfStepsToZero.h"
+#include "src/MiddleLinkedList.h"
+#include "src/RansomNote.h"
+#include "src/TwoSumTarget.h"
 
 void RunningSumExercise()
 {
@@ -82,10 +82,15 @@ void TwoSumExercise()
 {
 	TwoSumTarget exercise;
 
+	//Inputs
 	std::vector<int> nums = { 2,7,11,15 };
+	std::vector<int> nums2 = { 3, 2, 4};
+	std::vector<int> nums3 = { 3, 3};
 	int target = 9;
+	int target2 = 6;
+	int target3 = 6;
 
-	exercise.twoSum(nums,target);
+	Log::PrintIntVector(exercise.twoSum(nums2,target2));
 }
 
 int main()

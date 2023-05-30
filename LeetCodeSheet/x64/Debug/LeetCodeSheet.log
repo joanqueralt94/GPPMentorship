@@ -1,11 +1,5 @@
-﻿  FizzBuzz.cpp
-  MiddleLinkedList.cpp
-  NumberOfStepsToZero.cpp
+﻿  Main.cpp
   RansomNote.cpp
   RichestCustomerWealth.cpp
-  Running1dArray.cpp
-  TwoSumTarget.cpp
-  Log.cpp
-  Main.cpp
   Generating Code...
   LeetCodeSheet.vcxproj -> C:\Dev\GPPMentorship\x64\Debug\LeetCodeSheet.exe

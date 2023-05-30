@@ -127,24 +127,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="FizzBuzz.cpp" />
-    <ClCompile Include="MiddleLinkedList.cpp" />
-    <ClCompile Include="NumberOfStepsToZero.cpp" />
-    <ClCompile Include="RansomNote.cpp" />
-    <ClCompile Include="RichestCustomerWealth.cpp" />
-    <ClCompile Include="Running1dArray.cpp" />
-    <ClCompile Include="TwoSumTarget.cpp" />
+    <ClCompile Include="src\FizzBuzz.cpp" />
+    <ClCompile Include="src\MiddleLinkedList.cpp" />
+    <ClCompile Include="src\NumberOfStepsToZero.cpp" />
+    <ClCompile Include="src\RansomNote.cpp" />
+    <ClCompile Include="src\RichestCustomerWealth.cpp" />
+    <ClCompile Include="src\Running1dArray.cpp" />
+    <ClCompile Include="src\TwoSumTarget.cpp" />
     <ClCompile Include="utils\Log.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="FizzBuzz.h" />
-    <ClInclude Include="MiddleLinkedList.h" />
-    <ClInclude Include="NumberOfStepsToZero.h" />
-    <ClInclude Include="RansomNote.h" />
-    <ClInclude Include="RichestCustomerWealth.h" />
-    <ClInclude Include="Running1dArray.h" />
-    <ClInclude Include="TwoSumTarget.h" />
+    <ClInclude Include="src\FizzBuzz.h" />
+    <ClInclude Include="src\MiddleLinkedList.h" />
+    <ClInclude Include="src\NumberOfStepsToZero.h" />
+    <ClInclude Include="src\RansomNote.h" />
+    <ClInclude Include="src\RichestCustomerWealth.h" />
+    <ClInclude Include="src\Running1dArray.h" />
+    <ClInclude Include="src\TwoSumTarget.h" />
     <ClInclude Include="utils\Log.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

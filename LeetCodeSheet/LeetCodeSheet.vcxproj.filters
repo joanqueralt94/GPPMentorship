@@ -21,25 +21,25 @@
     <ClCompile Include="utils\Log.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Running1dArray.cpp">
+    <ClCompile Include="src\FizzBuzz.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RichestCustomerWealth.cpp">
+    <ClCompile Include="src\MiddleLinkedList.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FizzBuzz.cpp">
+    <ClCompile Include="src\NumberOfStepsToZero.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="NumberOfStepsToZero.cpp">
+    <ClCompile Include="src\RansomNote.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MiddleLinkedList.cpp">
+    <ClCompile Include="src\RichestCustomerWealth.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RansomNote.cpp">
+    <ClCompile Include="src\Running1dArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TwoSumTarget.cpp">
+    <ClCompile Include="src\TwoSumTarget.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -47,25 +47,25 @@
     <ClInclude Include="utils\Log.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Running1dArray.h">
+    <ClInclude Include="src\FizzBuzz.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RichestCustomerWealth.h">
+    <ClInclude Include="src\MiddleLinkedList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FizzBuzz.h">
+    <ClInclude Include="src\NumberOfStepsToZero.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="NumberOfStepsToZero.h">
+    <ClInclude Include="src\RansomNote.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MiddleLinkedList.h">
+    <ClInclude Include="src\RichestCustomerWealth.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RansomNote.h">
+    <ClInclude Include="src\Running1dArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TwoSumTarget.h">
+    <ClInclude Include="src\TwoSumTarget.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
