@@ -2,32 +2,16 @@
 
 std::vector<int> TwoSumTarget::twoSum(std::vector<int>& nums, int target)
 {
-    
-    std::vector<int> indices;
-    indices.resize(nums.size());
-    std::sort(nums.begin(), nums.end());
-    
-    int temp = 0;
-    int counter = 0;
+    std::unordered_map<int, int> table;
 
     for (int i = 0; i < nums.size(); ++i)
     {
-        if (nums[i] > target)
+        int complement = target - nums[i];
+        if (table.find(complement) != table.end())
         {
-            indices.erase(indices.begin() + i);
+            return { table[complement], i };
         }
-        else
-        {
-            temp += nums[i];
-            indices[i] = counter;
-            ++counter;
-            if (temp < target)
-            {
-                continue;
-            }
-            else break;
-        }
+        table[nums[i]] = i;
     }
-
-    return indices;
+    return {};
 }

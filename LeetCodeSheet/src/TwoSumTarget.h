@@ -2,6 +2,7 @@
 
 #include <vector>
 #include <algorithm>
+#include <unordered_map>
 #include "../utils/Log.h"
 
 class TwoSumTarget
