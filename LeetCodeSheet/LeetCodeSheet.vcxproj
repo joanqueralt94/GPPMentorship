@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="src\FizzBuzz.cpp" />
+    <ClCompile Include="src\LongestCommonPrefix.cpp" />
     <ClCompile Include="src\MiddleLinkedList.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
     <ClCompile Include="src\PalindromeNumber.cpp" />
@@ -138,9 +139,11 @@
     <ClCompile Include="src\TwoSumTarget.cpp" />
     <ClCompile Include="utils\Log.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ValidParentheses.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\FizzBuzz.h" />
+    <ClInclude Include="src\LongestCommonPrefix.h" />
     <ClInclude Include="src\MiddleLinkedList.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
     <ClInclude Include="src\PalindromeNumber.h" />
@@ -150,6 +153,7 @@
     <ClInclude Include="src\Running1dArray.h" />
     <ClInclude Include="src\TwoSumTarget.h" />
     <ClInclude Include="utils\Log.h" />
+    <ClInclude Include="ValidParentheses.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

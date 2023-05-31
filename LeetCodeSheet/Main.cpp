@@ -8,6 +8,7 @@
 #include "src/TwoSumTarget.h"
 #include "src/PalindromeNumber.h"
 #include "src/RomanToInteger.h"
+#include "src/LongestCommonPrefix.h"
 
 void RunningSumExercise()
 {
@@ -118,6 +119,19 @@ void RomanToIntExercise()
 	Log::PrintInt(exercise.romanToInt(input3));
 }
 
+void LongestCommPrefixExercise()
+{
+	LongestCommonPrefix exercise;
+
+	std::vector<std::string> inputStrings = {"flower","flow","flight"};
+	std::vector<std::string> inputStrings2 = {"dog","racecar","car"};
+
+	Log::PrintString(exercise.longestCommonPrefix(inputStrings));
+	Log::PrintString(exercise.longestCommonPrefix(inputStrings2));
+
+
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -128,7 +142,10 @@ int main()
 	RansomNoteExercise();
 	TwoSumExercise();
 	PalindromeExercise();
-	RomanToIntExercise();*/
+	RomanToIntExercise();
+	LongestCommPrefixExercise();*/
+
+
 
 	system("pause");
 	return 0;
