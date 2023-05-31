@@ -7,6 +7,7 @@
 #include "src/RansomNote.h"
 #include "src/TwoSumTarget.h"
 #include "src/PalindromeNumber.h"
+#include "src/RomanToInteger.h"
 
 void RunningSumExercise()
 {
@@ -94,7 +95,7 @@ void TwoSumExercise()
 	Log::PrintIntVector(exercise.twoSum(nums2,target2));
 }
 
-void PalindromExercise()
+void PalindromeExercise()
 {
 	PalindromeNumber exercise;
 
@@ -102,6 +103,19 @@ void PalindromExercise()
 
 	if (exercise.isPalindrome(number)) Log::PrintChar("Is a palindrome");
 	else Log::PrintChar("Is not a palindrome");
+}
+
+void RomanToIntExercise()
+{
+	RomanToInteger exercise;
+
+	std::string input = "III";
+	std::string input2 = "LVIII";
+	std::string input3 = "MCMXCIV";
+
+	Log::PrintInt(exercise.romanToInt(input));
+	Log::PrintInt(exercise.romanToInt(input2));
+	Log::PrintInt(exercise.romanToInt(input3));
 }
 
 int main()
@@ -112,8 +126,9 @@ int main()
 	NumberOfStepsToZeroExercise();
 	MiddleLinkedListExercise();
 	RansomNoteExercise();
-	TwoSumExercise();*/
-	PalindromExercise();
+	TwoSumExercise();
+	PalindromeExercise();
+	RomanToIntExercise();*/
 
 	system("pause");
 	return 0;

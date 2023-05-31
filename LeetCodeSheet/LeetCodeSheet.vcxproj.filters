@@ -45,7 +45,7 @@
     <ClCompile Include="src\PalindromeNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="RomanToInteger.cpp">
+    <ClCompile Include="src\RomanToInteger.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -77,7 +77,7 @@
     <ClInclude Include="src\PalindromeNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="RomanToInteger.h">
+    <ClInclude Include="src\RomanToInteger.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

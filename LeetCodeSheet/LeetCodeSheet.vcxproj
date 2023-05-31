@@ -127,26 +127,26 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="RomanToInteger.cpp" />
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\MiddleLinkedList.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
     <ClCompile Include="src\PalindromeNumber.cpp" />
     <ClCompile Include="src\RansomNote.cpp" />
     <ClCompile Include="src\RichestCustomerWealth.cpp" />
+    <ClCompile Include="src\RomanToInteger.cpp" />
     <ClCompile Include="src\Running1dArray.cpp" />
     <ClCompile Include="src\TwoSumTarget.cpp" />
     <ClCompile Include="utils\Log.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="RomanToInteger.h" />
     <ClInclude Include="src\FizzBuzz.h" />
     <ClInclude Include="src\MiddleLinkedList.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
     <ClInclude Include="src\PalindromeNumber.h" />
     <ClInclude Include="src\RansomNote.h" />
     <ClInclude Include="src\RichestCustomerWealth.h" />
+    <ClInclude Include="src\RomanToInteger.h" />
     <ClInclude Include="src\Running1dArray.h" />
     <ClInclude Include="src\TwoSumTarget.h" />
     <ClInclude Include="utils\Log.h" />
