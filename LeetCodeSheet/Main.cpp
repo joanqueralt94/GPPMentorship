@@ -6,6 +6,7 @@
 #include "src/MiddleLinkedList.h"
 #include "src/RansomNote.h"
 #include "src/TwoSumTarget.h"
+#include "src/PalindromeNumber.h"
 
 void RunningSumExercise()
 {
@@ -93,6 +94,16 @@ void TwoSumExercise()
 	Log::PrintIntVector(exercise.twoSum(nums2,target2));
 }
 
+void PalindromExercise()
+{
+	PalindromeNumber exercise;
+
+	int number = 1331;
+
+	if (exercise.isPalindrome(number)) Log::PrintChar("Is a palindrome");
+	else Log::PrintChar("Is not a palindrome");
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -100,8 +111,9 @@ int main()
 	FizzBuzzExercise();
 	NumberOfStepsToZeroExercise();
 	MiddleLinkedListExercise();
-	RansomNoteExercise();*/
-	TwoSumExercise();
+	RansomNoteExercise();
+	TwoSumExercise();*/
+	PalindromExercise();
 
 	system("pause");
 	return 0;
