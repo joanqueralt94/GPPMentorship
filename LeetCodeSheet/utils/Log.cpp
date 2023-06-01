@@ -57,4 +57,10 @@ namespace Log
 		std::cout << word << std::endl;
 	}
 
+	void PrintBool(bool b)
+	{
+		if (b) std::cout << "True" << std::endl;
+		else std::cout << "False" << std::endl;
+	}
+
 }

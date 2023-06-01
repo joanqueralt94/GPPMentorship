@@ -9,6 +9,7 @@
 #include "src/PalindromeNumber.h"
 #include "src/RomanToInteger.h"
 #include "src/LongestCommonPrefix.h"
+#include "src/ValidParentheses.h"
 
 void RunningSumExercise()
 {
@@ -132,6 +133,21 @@ void LongestCommPrefixExercise()
 
 }
 
+void ValidParenthesesExercise()
+{
+	ValidParentheses exercise;
+
+	std::string s = { "()[]{}" };
+	std::string s2 = { "()" };
+	std::string s3 = { "(]" };
+	std::string s4 = { "]{([})" };
+	std::string s4 = { "([)]" };
+
+	Log::PrintBool(exercise.isValid(s3));
+}
+
+
+
 int main()
 {
 	/*RunningSumExercise();
@@ -144,7 +160,7 @@ int main()
 	PalindromeExercise();
 	RomanToIntExercise();
 	LongestCommPrefixExercise();*/
-
+	//ValidParenthesesExercise(); NOT FINISHED
 
 
 	system("pause");

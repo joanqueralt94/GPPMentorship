@@ -51,7 +51,10 @@
     <ClCompile Include="src\LongestCommonPrefix.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ValidParentheses.cpp">
+    <ClCompile Include="src\ValidParentheses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MaximumDepthBinaryTree.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -89,7 +92,10 @@
     <ClInclude Include="src\LongestCommonPrefix.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ValidParentheses.h">
+    <ClInclude Include="src\ValidParentheses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MaximumDepthBinaryTree.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

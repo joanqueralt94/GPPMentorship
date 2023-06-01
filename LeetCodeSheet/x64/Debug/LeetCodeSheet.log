@@ -1,14 +1,2 @@
-﻿  Main.cpp
-  FizzBuzz.cpp
-  LongestCommonPrefix.cpp
-  NumberOfStepsToZero.cpp
-  PalindromeNumber.cpp
-C:\Dev\GPPMentorship\LeetCodeSheet\src\PalindromeNumber.cpp(10,16): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
-  RansomNote.cpp
-  RichestCustomerWealth.cpp
-  RomanToInteger.cpp
-  Running1dArray.cpp
-  TwoSumTarget.cpp
-  Log.cpp
-  Generating Code...
+﻿  ValidParentheses.cpp
   LeetCodeSheet.vcxproj -> C:\Dev\GPPMentorship\x64\Debug\LeetCodeSheet.exe

@@ -12,5 +12,6 @@ namespace Log
 	void PrintChar(const char* message);
 	void PrintGrid(const std::vector<std::vector<int>>& grid);
 	void PrintString(const std::string& word);
+	void PrintBool(bool b);
 };
 
