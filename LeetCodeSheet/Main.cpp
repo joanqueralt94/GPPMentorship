@@ -10,6 +10,7 @@
 #include "src/RomanToInteger.h"
 #include "src/LongestCommonPrefix.h"
 #include "src/ValidParentheses.h"
+#include "src/MaximumDepthBinaryTree.h"
 
 void RunningSumExercise()
 {
@@ -146,7 +147,18 @@ void ValidParenthesesExercise()
 	Log::PrintBool(exercise.isValid(s3));
 }
 
+void MaximumDepthBinaryTreeExercise()
+{
+	MaximumDepthBinaryTree exercise;
 
+	int value = 3;
+	
+	//TreeNode* rootInput(value);
+
+	//exercise.maxDepth(rootInput);
+
+
+}
 
 int main()
 {

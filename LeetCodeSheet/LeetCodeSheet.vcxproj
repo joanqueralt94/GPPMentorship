@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -127,9 +127,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MaximumDepthBinaryTree.cpp" />
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\LongestCommonPrefix.cpp" />
+    <ClCompile Include="src\MaximumDepthBinaryTree.cpp" />
     <ClCompile Include="src\MiddleLinkedList.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
     <ClCompile Include="src\PalindromeNumber.cpp" />
@@ -143,9 +143,9 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MaximumDepthBinaryTree.h" />
     <ClInclude Include="src\FizzBuzz.h" />
     <ClInclude Include="src\LongestCommonPrefix.h" />
+    <ClInclude Include="src\MaximumDepthBinaryTree.h" />
     <ClInclude Include="src\MiddleLinkedList.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
     <ClInclude Include="src\PalindromeNumber.h" />
