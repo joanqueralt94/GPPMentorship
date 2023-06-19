@@ -12,6 +12,7 @@
 #include "src/ValidParentheses.h"
 #include "src/MaximumDepthBinaryTree.h"
 #include "src/MaxConsecutiveOnes.h"
+#include "src/FindNumbersEvenNumberDigits.h"
 
 void RunningSumExercise()
 {
@@ -171,6 +172,17 @@ void MaxConsecutiveOnesExercise()
 	exercise.findMaxConsecutiveOnes(nums2);
 }
 
+void FindNumbersEvenNumberDigitsExercise()
+{
+	FindNumbersEvenNumberDigits exercise;
+
+	std::vector<int> nums = {12,345,2,6,7896};
+	std::vector<int> nums2 = {555,901,482,1771};
+
+	exercise.findNumbers(nums);
+	exercise.findNumbers(nums2);
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -184,9 +196,8 @@ int main()
 	RomanToIntExercise();
 	LongestCommPrefixExercise();
 	ValidParenthesesExercise();
-	*/
-
 	MaxConsecutiveOnesExercise();
+	FindNumbersEvenNumberDigitsExercise();*/
 
 	system("pause");
 	return 0;
