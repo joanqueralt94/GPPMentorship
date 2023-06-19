@@ -127,7 +127,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="DuplicateZeros.cpp" />
+    <ClCompile Include="MergedSortedArray.cpp" />
+    <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersEvenNumberDigits.cpp" />
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\LongestCommonPrefix.cpp" />
@@ -147,7 +148,8 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="DuplicateZeros.h" />
+    <ClInclude Include="MergedSortedArray.h" />
+    <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersEvenNumberDigits.h" />
     <ClInclude Include="src\FizzBuzz.h" />
     <ClInclude Include="src\LongestCommonPrefix.h" />

@@ -66,7 +66,10 @@
     <ClCompile Include="src\SquaresSortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="DuplicateZeros.cpp">
+    <ClCompile Include="src\DuplicateZeros.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MergedSortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -119,7 +122,10 @@
     <ClInclude Include="src\SquaresSortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="DuplicateZeros.h">
+    <ClInclude Include="src\DuplicateZeros.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MergedSortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

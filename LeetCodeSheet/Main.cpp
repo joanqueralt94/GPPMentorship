@@ -14,6 +14,7 @@
 #include "src/MaxConsecutiveOnes.h"
 #include "src/FindNumbersEvenNumberDigits.h"
 #include "src/SquaresSortedArray.h"
+#include "src/DuplicateZeros.h"
 
 void RunningSumExercise()
 {
@@ -188,12 +189,23 @@ void SquaresSortedArrayExercise()
 {
 	SquaresSortedArray exercise;
 
-	std::vector<int> nums = {-4,-1,0,3,10};
-	std::vector<int> nums2 = {-7,-3,2,3,11};
+	std::vector<int> nums = { -4,-1,0,3,10 };
+	std::vector<int> nums2 = { -7,-3,2,3,11 };
 
 	exercise.sortedSquares(nums);
 	exercise.sortedSquares(nums2);
 
+}
+
+void DuplicateZerosExercise()
+{
+	DuplicateZeros exercise;
+
+	std::vector<int> nums = {1,0,2,3,0,4,5,0};
+	std::vector<int> nums2 = {1,2,3};
+
+	exercise.duplicateZeros(nums);
+	exercise.duplicateZeros(nums2);
 }
 
 int main()
@@ -211,7 +223,8 @@ int main()
 	ValidParenthesesExercise();
 	MaxConsecutiveOnesExercise();
 	FindNumbersEvenNumberDigitsExercise();
-	SquaresSortedArrayExercise();*/
+	SquaresSortedArrayExercise();
+	DuplicateZerosExercise();*/
 
 	system("pause");
 	return 0;
