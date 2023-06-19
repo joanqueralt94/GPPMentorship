@@ -63,7 +63,10 @@
     <ClCompile Include="src\FindNumbersEvenNumberDigits.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="SquaresSortedArray.cpp">
+    <ClCompile Include="src\SquaresSortedArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="DuplicateZeros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -113,7 +116,10 @@
     <ClInclude Include="src\FindNumbersEvenNumberDigits.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="SquaresSortedArray.h">
+    <ClInclude Include="src\SquaresSortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="DuplicateZeros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

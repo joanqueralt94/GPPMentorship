@@ -13,6 +13,7 @@
 #include "src/MaximumDepthBinaryTree.h"
 #include "src/MaxConsecutiveOnes.h"
 #include "src/FindNumbersEvenNumberDigits.h"
+#include "src/SquaresSortedArray.h"
 
 void RunningSumExercise()
 {
@@ -183,6 +184,18 @@ void FindNumbersEvenNumberDigitsExercise()
 	exercise.findNumbers(nums2);
 }
 
+void SquaresSortedArrayExercise()
+{
+	SquaresSortedArray exercise;
+
+	std::vector<int> nums = {-4,-1,0,3,10};
+	std::vector<int> nums2 = {-7,-3,2,3,11};
+
+	exercise.sortedSquares(nums);
+	exercise.sortedSquares(nums2);
+
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -197,7 +210,8 @@ int main()
 	LongestCommPrefixExercise();
 	ValidParenthesesExercise();
 	MaxConsecutiveOnesExercise();
-	FindNumbersEvenNumberDigitsExercise();*/
+	FindNumbersEvenNumberDigitsExercise();
+	SquaresSortedArrayExercise();*/
 
 	system("pause");
 	return 0;
