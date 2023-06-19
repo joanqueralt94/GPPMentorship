@@ -54,7 +54,10 @@
     <ClCompile Include="src\ValidParentheses.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MaximumDepthBinaryTree.cpp">
+    <ClCompile Include="src\MaximumDepthBinaryTree.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MaxConsecutiveOnes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -95,7 +98,10 @@
     <ClInclude Include="src\ValidParentheses.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MaximumDepthBinaryTree.h">
+    <ClInclude Include="src\MaximumDepthBinaryTree.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\MaxConsecutiveOnes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

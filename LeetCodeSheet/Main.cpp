@@ -11,6 +11,7 @@
 #include "src/LongestCommonPrefix.h"
 #include "src/ValidParentheses.h"
 #include "src/MaximumDepthBinaryTree.h"
+#include "src/MaxConsecutiveOnes.h"
 
 void RunningSumExercise()
 {
@@ -142,7 +143,6 @@ void ValidParenthesesExercise()
 	std::string s2 = { "()" };
 	std::string s3 = { "(]" };
 	std::string s4 = { "]{([})" };
-	std::string s4 = { "([)]" };
 
 	Log::PrintBool(exercise.isValid(s3));
 }
@@ -160,6 +160,17 @@ void MaximumDepthBinaryTreeExercise()
 
 }
 
+void MaxConsecutiveOnesExercise()
+{
+	MaxConsecutiveOnes exercise;
+
+	std::vector<int> nums = {1,1,0,1,1,1};
+	std::vector<int> nums2 = {1,0,1,1,0,1};
+
+	exercise.findMaxConsecutiveOnes(nums);
+	exercise.findMaxConsecutiveOnes(nums2);
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -171,9 +182,11 @@ int main()
 	TwoSumExercise();
 	PalindromeExercise();
 	RomanToIntExercise();
-	LongestCommPrefixExercise();*/
-	//ValidParenthesesExercise(); NOT FINISHED
+	LongestCommPrefixExercise();
+	ValidParenthesesExercise();
+	*/
 
+	MaxConsecutiveOnesExercise();
 
 	system("pause");
 	return 0;

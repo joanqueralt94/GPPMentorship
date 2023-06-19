@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\LongestCommonPrefix.cpp" />
+    <ClCompile Include="src\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\MaximumDepthBinaryTree.cpp" />
     <ClCompile Include="src\MiddleLinkedList.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
@@ -145,6 +146,7 @@
   <ItemGroup>
     <ClInclude Include="src\FizzBuzz.h" />
     <ClInclude Include="src\LongestCommonPrefix.h" />
+    <ClInclude Include="src\MaxConsecutiveOnes.h" />
     <ClInclude Include="src\MaximumDepthBinaryTree.h" />
     <ClInclude Include="src\MiddleLinkedList.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
