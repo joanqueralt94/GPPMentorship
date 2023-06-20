@@ -18,6 +18,7 @@
 #include "src/MergedSortedArray.h"
 #include "src/RemoveElement.h"
 #include "src/RemoveDuplicatesSortedArray.h"
+#include "src/CheckIfExistNandDouble.h"
 
 void RunningSumExercise()
 {
@@ -248,6 +249,19 @@ void RemoveDuplicatesSortedArrayExercise()
 	exercise.removeDuplicates(nums2);
 }
 
+void CheckIfExistNandDoubleExercise()
+{
+	CheckIfExistNandDouble exercise;
+
+	std::vector<int> arr = { 10, 2, 5, 3 };
+	std::vector<int> arr2 = { 3,1,7,11 };
+	std::vector<int> arr3 = {-2, 0, 10, -19, 4, 6, -8};
+
+	Log::PrintBool(exercise.checkIfExist(arr));
+	Log::PrintBool(exercise.checkIfExist(arr2));
+	Log::PrintBool(exercise.checkIfExist(arr3));
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -269,6 +283,7 @@ int main()
 	RemoveElementExercise();
 	RemoveDuplicatesSortedArrayExercise();*/
 
+	CheckIfExistNandDoubleExercise();
 
 
 	system("pause");

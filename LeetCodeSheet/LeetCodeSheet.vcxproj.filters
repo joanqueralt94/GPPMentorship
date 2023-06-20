@@ -78,7 +78,10 @@
     <ClCompile Include="src\RemoveDuplicatesSortedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CheckIfExistNandDouble.cpp">
+    <ClCompile Include="src\CheckIfExistNandDouble.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ValidMountainArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -143,7 +146,10 @@
     <ClInclude Include="src\RemoveDuplicatesSortedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CheckIfExistNandDouble.h">
+    <ClInclude Include="src\CheckIfExistNandDouble.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ValidMountainArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

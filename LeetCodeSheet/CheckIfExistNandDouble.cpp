@@ -1,1 +1,0 @@
-#include "CheckIfExistNandDouble.h"
