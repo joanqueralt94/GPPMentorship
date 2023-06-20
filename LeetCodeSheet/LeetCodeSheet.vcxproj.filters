@@ -81,7 +81,10 @@
     <ClCompile Include="src\CheckIfExistNandDouble.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ValidMountainArray.cpp">
+    <ClCompile Include="src\ValidMountainArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ReplaceElementsGreatestElementRightSide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -149,7 +152,10 @@
     <ClInclude Include="src\CheckIfExistNandDouble.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ValidMountainArray.h">
+    <ClInclude Include="src\ValidMountainArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ReplaceElementsGreatestElementRightSide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

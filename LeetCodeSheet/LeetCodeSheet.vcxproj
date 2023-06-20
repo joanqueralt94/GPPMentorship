@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ReplaceElementsGreatestElementRightSide.cpp" />
     <ClCompile Include="src\CheckIfExistNandDouble.cpp" />
     <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersEvenNumberDigits.cpp" />
@@ -146,12 +147,13 @@
     <ClCompile Include="src\Running1dArray.cpp" />
     <ClCompile Include="src\SquaresSortedArray.cpp" />
     <ClCompile Include="src\TwoSumTarget.cpp" />
+    <ClCompile Include="src\ValidMountainArray.cpp" />
     <ClCompile Include="src\ValidParentheses.cpp" />
     <ClCompile Include="utils\Log.cpp" />
     <ClCompile Include="Main.cpp" />
-    <ClCompile Include="ValidMountainArray.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ReplaceElementsGreatestElementRightSide.h" />
     <ClInclude Include="src\CheckIfExistNandDouble.h" />
     <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersEvenNumberDigits.h" />
@@ -171,9 +173,9 @@
     <ClInclude Include="src\Running1dArray.h" />
     <ClInclude Include="src\SquaresSortedArray.h" />
     <ClInclude Include="src\TwoSumTarget.h" />
+    <ClInclude Include="src\ValidMountainArray.h" />
     <ClInclude Include="src\ValidParentheses.h" />
     <ClInclude Include="utils\Log.h" />
-    <ClInclude Include="ValidMountainArray.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
