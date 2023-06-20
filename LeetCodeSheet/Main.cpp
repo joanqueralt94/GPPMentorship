@@ -17,6 +17,7 @@
 #include "src/DuplicateZeros.h"
 #include "src/MergedSortedArray.h"
 #include "src/RemoveElement.h"
+#include "src/RemoveDuplicatesSortedArray.h"
 
 void RunningSumExercise()
 {
@@ -235,6 +236,18 @@ void RemoveElementExercise()
 	exercise.removeElement(nums2,val2);
 }
 
+void RemoveDuplicatesSortedArrayExercise()
+{
+	RemoveDuplicatesSortedArray exercise;
+
+
+	std::vector<int> nums = {1,1,2};
+	std::vector<int> nums2 = {0,0,1,1,1,2,2,3,3,4};
+
+	exercise.removeDuplicates(nums);
+	exercise.removeDuplicates(nums2);
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -253,7 +266,8 @@ int main()
 	SquaresSortedArrayExercise();
 	DuplicateZerosExercise();
 	MergedSortedArrayExercise();
-	RemoveElementExercise();*/
+	RemoveElementExercise();
+	RemoveDuplicatesSortedArrayExercise();*/
 
 
 
