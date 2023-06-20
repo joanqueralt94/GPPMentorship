@@ -15,6 +15,7 @@
 #include "src/FindNumbersEvenNumberDigits.h"
 #include "src/SquaresSortedArray.h"
 #include "src/DuplicateZeros.h"
+#include "src/MergedSortedArray.h"
 
 void RunningSumExercise()
 {
@@ -208,6 +209,18 @@ void DuplicateZerosExercise()
 	exercise.duplicateZeros(nums2);
 }
 
+void MergedSortedArrayExercise()
+{
+	MergedSortedArray exercise;
+
+	std::vector<int> nums1 = {1,2,3,0,0,0};
+	int m = 3;
+	std::vector<int> nums2 = {2,5,6};
+	int n = 3;
+
+	exercise.merge(nums1, m, nums2, n);
+}
+
 int main()
 {
 	/*RunningSumExercise();
@@ -225,6 +238,7 @@ int main()
 	FindNumbersEvenNumberDigitsExercise();
 	SquaresSortedArrayExercise();
 	DuplicateZerosExercise();*/
+	MergedSortedArrayExercise();
 
 	system("pause");
 	return 0;

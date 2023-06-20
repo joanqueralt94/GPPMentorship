@@ -127,13 +127,14 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="MergedSortedArray.cpp" />
+    <ClCompile Include="RemoveElement.cpp" />
     <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersEvenNumberDigits.cpp" />
     <ClCompile Include="src\FizzBuzz.cpp" />
     <ClCompile Include="src\LongestCommonPrefix.cpp" />
     <ClCompile Include="src\MaxConsecutiveOnes.cpp" />
     <ClCompile Include="src\MaximumDepthBinaryTree.cpp" />
+    <ClCompile Include="src\MergedSortedArray.cpp" />
     <ClCompile Include="src\MiddleLinkedList.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
     <ClCompile Include="src\PalindromeNumber.cpp" />
@@ -148,13 +149,14 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="MergedSortedArray.h" />
+    <ClInclude Include="RemoveElement.h" />
     <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersEvenNumberDigits.h" />
     <ClInclude Include="src\FizzBuzz.h" />
     <ClInclude Include="src\LongestCommonPrefix.h" />
     <ClInclude Include="src\MaxConsecutiveOnes.h" />
     <ClInclude Include="src\MaximumDepthBinaryTree.h" />
+    <ClInclude Include="src\MergedSortedArray.h" />
     <ClInclude Include="src\MiddleLinkedList.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
     <ClInclude Include="src\PalindromeNumber.h" />

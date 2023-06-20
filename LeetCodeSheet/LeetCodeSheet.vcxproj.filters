@@ -69,7 +69,10 @@
     <ClCompile Include="src\DuplicateZeros.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MergedSortedArray.cpp">
+    <ClCompile Include="src\MergedSortedArray.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoveElement.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -125,7 +128,10 @@
     <ClInclude Include="src\DuplicateZeros.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MergedSortedArray.h">
+    <ClInclude Include="src\MergedSortedArray.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoveElement.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
