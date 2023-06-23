@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="ReplaceElementsGreatestElementRightSide.cpp" />
+    <ClCompile Include="MoveZeroes.cpp" />
     <ClCompile Include="src\CheckIfExistNandDouble.cpp" />
     <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersEvenNumberDigits.cpp" />
@@ -142,6 +142,7 @@
     <ClCompile Include="src\RansomNote.cpp" />
     <ClCompile Include="src\RemoveDuplicatesSortedArray.cpp" />
     <ClCompile Include="src\RemoveElement.cpp" />
+    <ClCompile Include="src\ReplaceElementsGreatestElementRightSide.cpp" />
     <ClCompile Include="src\RichestCustomerWealth.cpp" />
     <ClCompile Include="src\RomanToInteger.cpp" />
     <ClCompile Include="src\Running1dArray.cpp" />
@@ -153,7 +154,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="ReplaceElementsGreatestElementRightSide.h" />
+    <ClInclude Include="MoveZeroes.h" />
     <ClInclude Include="src\CheckIfExistNandDouble.h" />
     <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersEvenNumberDigits.h" />
@@ -168,6 +169,7 @@
     <ClInclude Include="src\RansomNote.h" />
     <ClInclude Include="src\RemoveDuplicatesSortedArray.h" />
     <ClInclude Include="src\RemoveElement.h" />
+    <ClInclude Include="src\ReplaceElementsGreatestElementRightSide.h" />
     <ClInclude Include="src\RichestCustomerWealth.h" />
     <ClInclude Include="src\RomanToInteger.h" />
     <ClInclude Include="src\Running1dArray.h" />

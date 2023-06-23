@@ -20,6 +20,7 @@
 #include "src/RemoveDuplicatesSortedArray.h"
 #include "src/CheckIfExistNandDouble.h"
 #include "src/ValidMountainArray.h"
+#include "src/ReplaceElementsGreatestElementRightSide.h"
 
 void RunningSumExercise()
 {
@@ -276,7 +277,17 @@ void ValidMountainArrayExercise()
 	Log::PrintBool(exercise.validMountainArray(arr3));
 }
 
+void ReplaceElementsGreatestElementRightSideExercise()
+{
+	ReplaceElementsGreatestElementRightSide exercise;
 
+	std::vector<int> arr1 = {17,18,5,4,6,1};
+	//[18,6,6,6,1,-1]
+	std::vector<int> arr2 = {400};
+
+	Log::PrintIntVector(exercise.replaceElements(arr1));
+	Log::PrintIntVector(exercise.replaceElements(arr2));
+}
 
 int main()
 {
@@ -299,7 +310,8 @@ int main()
 	RemoveElementExercise();
 	RemoveDuplicatesSortedArrayExercise();
 	CheckIfExistNandDoubleExercise();
-	ValidMountainArrayExercise();*/
+	ValidMountainArrayExercise();
+	ReplaceElementsGreatestElementRightSideExercise();*/
 
 	system("pause");
 	return 0;
