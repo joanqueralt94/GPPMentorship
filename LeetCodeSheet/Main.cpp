@@ -23,6 +23,7 @@
 #include "src/ReplaceElementsGreatestElementRightSide.h"
 #include "src/MoveZeroes.h"
 #include "src/SortArrayParity.h"
+#include "src/HeightChecker.h"
 
 void RunningSumExercise()
 {
@@ -320,9 +321,22 @@ void SortArrayParityExercise()
 
 }
 
+void HeightCheckerExercise()
+{
+	HeightChecker exercise;
+
+	std::vector<int> nums = {1,1,4,2,1,3};
+	std::vector<int> nums2 = {5,1,2,3,4};
+	std::vector<int> nums3 = {1,2,3,4,5};
+
+	Log::PrintInt(exercise.heightChecker(nums));
+	Log::PrintInt(exercise.heightChecker(nums2));
+	Log::PrintInt(exercise.heightChecker(nums3));
+}
+
 int main()
 {
-	SortArrayParityExercise();
+	HeightCheckerExercise();
 
 	system("pause");
 	return 0;

@@ -93,7 +93,10 @@
     <ClCompile Include="src\SortArrayParity.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="HeightChecker.cpp">
+    <ClCompile Include="src\HeightChecker.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdMaximumNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -173,7 +176,10 @@
     <ClInclude Include="src\SortArrayParity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="HeightChecker.h">
+    <ClInclude Include="src\HeightChecker.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdMaximumNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
