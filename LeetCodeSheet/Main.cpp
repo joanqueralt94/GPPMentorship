@@ -24,6 +24,7 @@
 #include "src/MoveZeroes.h"
 #include "src/SortArrayParity.h"
 #include "src/HeightChecker.h"
+#include "src/ThirdMaximumNumber.h"
 
 void RunningSumExercise()
 {
@@ -334,9 +335,22 @@ void HeightCheckerExercise()
 	Log::PrintInt(exercise.heightChecker(nums3));
 }
 
+void ThirdMaximumNumberExercise()
+{
+	ThirdMaximumNumber exercise;
+
+	std::vector<int> nums = {3,2,1};
+	std::vector<int> nums2 = {1,2};
+	std::vector<int> nums3 = {2,2,3,1};
+
+	Log::PrintInt(exercise.thirdMax(nums));
+	Log::PrintInt(exercise.thirdMax(nums2));
+	Log::PrintInt(exercise.thirdMax(nums3));
+}
+
 int main()
 {
-	HeightCheckerExercise();
+	ThirdMaximumNumberExercise();
 
 	system("pause");
 	return 0;
