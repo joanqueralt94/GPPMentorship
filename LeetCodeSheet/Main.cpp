@@ -21,6 +21,7 @@
 #include "src/CheckIfExistNandDouble.h"
 #include "src/ValidMountainArray.h"
 #include "src/ReplaceElementsGreatestElementRightSide.h"
+#include "src/MoveZeroes.h"
 
 void RunningSumExercise()
 {
@@ -289,29 +290,27 @@ void ReplaceElementsGreatestElementRightSideExercise()
 	Log::PrintIntVector(exercise.replaceElements(arr2));
 }
 
+void MoveZeroesExercise()
+{
+	MoveZeroes exercise;
+
+	std::vector<int> arr1 = {0,1,0,3,12};
+	std::vector<int> arr2 = {0};
+	std::vector<int> arr3 = {0,0,1};
+
+	exercise.moveZeroes(arr1);
+	Log::PrintIntVector(arr1);
+	exercise.moveZeroes(arr2);
+	Log::PrintIntVector(arr2);
+	exercise.moveZeroes(arr3);
+	Log::PrintIntVector(arr3);
+
+}
+
 int main()
 {
-	/*RunningSumExercise();
-	MaximumWealthExercise();
-	FizzBuzzExercise();
-	NumberOfStepsToZeroExercise();
-	MiddleLinkedListExercise();
-	RansomNoteExercise();
-	TwoSumExercise();
-	PalindromeExercise();
-	RomanToIntExercise();
-	LongestCommPrefixExercise();
-	ValidParenthesesExercise();
-	MaxConsecutiveOnesExercise();
-	FindNumbersEvenNumberDigitsExercise();
-	SquaresSortedArrayExercise();
-	DuplicateZerosExercise();
-	MergedSortedArrayExercise();
-	RemoveElementExercise();
-	RemoveDuplicatesSortedArrayExercise();
-	CheckIfExistNandDoubleExercise();
-	ValidMountainArrayExercise();
-	ReplaceElementsGreatestElementRightSideExercise();*/
+	
+	MoveZeroesExercise();
 
 	system("pause");
 	return 0;

@@ -87,7 +87,7 @@
     <ClCompile Include="src\ReplaceElementsGreatestElementRightSide.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="MoveZeroes.cpp">
+    <ClCompile Include="src\MoveZeroes.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -161,7 +161,7 @@
     <ClInclude Include="src\ReplaceElementsGreatestElementRightSide.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="MoveZeroes.h">
+    <ClInclude Include="src\MoveZeroes.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
