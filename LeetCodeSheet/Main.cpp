@@ -22,6 +22,7 @@
 #include "src/ValidMountainArray.h"
 #include "src/ReplaceElementsGreatestElementRightSide.h"
 #include "src/MoveZeroes.h"
+#include "src/SortArrayParity.h"
 
 void RunningSumExercise()
 {
@@ -307,10 +308,21 @@ void MoveZeroesExercise()
 
 }
 
+void SortArrayParityExercise()
+{
+	SortArrayParity exercise;
+
+	std::vector<int> nums = {3,1,2,4};
+	std::vector<int> nums2 = {0};
+
+	Log::PrintIntVector(exercise.sortArrayByParity(nums));
+	Log::PrintIntVector(exercise.sortArrayByParity(nums2));
+
+}
+
 int main()
 {
-	
-	MoveZeroesExercise();
+	SortArrayParityExercise();
 
 	system("pause");
 	return 0;
