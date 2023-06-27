@@ -99,7 +99,7 @@
     <ClCompile Include="src\ThirdMaximumNumber.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="FindNumbersDisappearedArray.cpp">
+    <ClCompile Include="src\FindNumbersDisappearedArray.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -185,7 +185,7 @@
     <ClInclude Include="src\ThirdMaximumNumber.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="FindNumbersDisappearedArray.h">
+    <ClInclude Include="src\FindNumbersDisappearedArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

@@ -25,6 +25,7 @@
 #include "src/SortArrayParity.h"
 #include "src/HeightChecker.h"
 #include "src/ThirdMaximumNumber.h"
+#include "src/FindNumbersDisappearedArray.h"
 
 void RunningSumExercise()
 {
@@ -348,9 +349,21 @@ void ThirdMaximumNumberExercise()
 	Log::PrintInt(exercise.thirdMax(nums3));
 }
 
+void FindNumbersDisappearedArrayExercise()
+{
+	FindNumbersDisappearedArray exercise;
+
+	std::vector<int> nums = {4,3,2,7,8,2,3,1};
+	std::vector<int> nums2 = {1,1};
+
+	Log::PrintIntVector(exercise.findDisappearedNumbers(nums));
+	Log::PrintIntVector(exercise.findDisappearedNumbers(nums2));
+
+}
+
 int main()
 {
-	ThirdMaximumNumberExercise();
+	FindNumbersDisappearedArrayExercise();
 
 	system("pause");
 	return 0;
