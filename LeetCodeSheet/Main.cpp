@@ -1,4 +1,3 @@
-#include "Utils/Log.h"
 #include "src/Running1dArray.h"
 #include "src/RichestCustomerWealth.h"
 #include "src/FizzBuzz.h"
@@ -26,7 +25,10 @@
 #include "src/HeightChecker.h"
 #include "src/ThirdMaximumNumber.h"
 #include "src/FindNumbersDisappearedArray.h"
+#include "src/SortingBlockExercises.h"
 
+//Exercises till Array block (included)
+/*
 void RunningSumExercise()
 {
 	Running1dArray exercise;
@@ -83,7 +85,7 @@ void MiddleLinkedListExercise()
 
 	ListNode* head;
 
-	exercise.middleNode(head);*/
+	exercise.middleNode(head);
 }
 
 void RansomNoteExercise()
@@ -360,10 +362,87 @@ void FindNumbersDisappearedArrayExercise()
 	Log::PrintIntVector(exercise.findDisappearedNumbers(nums2));
 
 }
+*/
+
+//Sorting block Exercises
+void SortColorsExercise()
+{
+	SortingBlockExercises exercise;
+
+	std::vector<int> nums = {2,0,2,1,1,0};
+	std::vector<int> nums2 = {2,0,1};
+
+
+	exercise.sortColors(nums);
+	Log::PrintIntVector(nums);
+
+	exercise.sortColors(nums2);
+	Log::PrintIntVector(nums2);
+}
+
+void InsertionSortListExercise()
+{
+	SortingBlockExercises exercise;
+
+}
+
+void SortAnArrayExercise()
+{
+	SortingBlockExercises exercise;
+
+	std::vector<int> nums = {5,2,3,1};
+	std::vector<int> nums2 = {5,1,1,2,0,0};
+
+	Log::PrintIntVector(exercise.sortArray(nums));
+	Log::PrintIntVector(exercise.sortArray(nums2));
+
+}
+
+void KthLargestElementArray()
+{
+	SortingBlockExercises exercise;
+
+	std::vector<int> nums = {3,2,1,5,6,4};
+	int k = 2;
+
+	std::vector<int> nums2 = {3,2,3,1,2,4,5,5,6};
+	int k2 = 4;
+
+	Log::PrintInt(exercise.findKthLargest(nums, k));
+	Log::PrintInt(exercise.findKthLargest(nums2, k2));
+}
+
+void MinimumAbsoluteDifference()
+{
+	SortingBlockExercises exercise;
+
+	//std::vector<int> nums = {4,2,1,3};
+	std::vector<int> nums2 = {1,3,6,10,15};
+	//std::vector<int> nums3 = {3,8,-10,23,19,-4,-14,27};
+
+	//Log::PrintIntVectorofVector(exercise.minimumAbsDifference(nums));
+	Log::PrintIntVectorofVector(exercise.minimumAbsDifference(nums2));
+	//Log::PrintIntVectorofVector(exercise.minimumAbsDifference(nums3));
+}
+
+
+void MaximumGapExercise()
+{
+	SortingBlockExercises exercise;
+
+	std::vector<int> nums = {3,6,9,1};
+	std::vector<int> nums2 = {10};
+
+	Log::PrintInt(exercise.maximumGap(nums));
+	Log::PrintInt(exercise.maximumGap(nums2));
+
+}
+
 
 int main()
 {
-	FindNumbersDisappearedArrayExercise();
+
+	MaximumGapExercise();
 
 	system("pause");
 	return 0;

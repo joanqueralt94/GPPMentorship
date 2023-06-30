@@ -149,6 +149,7 @@
     <ClCompile Include="src\RomanToInteger.cpp" />
     <ClCompile Include="src\Running1dArray.cpp" />
     <ClCompile Include="src\SortArrayParity.cpp" />
+    <ClCompile Include="src\SortingBlockExercises.cpp" />
     <ClCompile Include="src\SquaresSortedArray.cpp" />
     <ClCompile Include="src\ThirdMaximumNumber.cpp" />
     <ClCompile Include="src\TwoSumTarget.cpp" />
@@ -180,6 +181,7 @@
     <ClInclude Include="src\RomanToInteger.h" />
     <ClInclude Include="src\Running1dArray.h" />
     <ClInclude Include="src\SortArrayParity.h" />
+    <ClInclude Include="src\SortingBlockExercises.h" />
     <ClInclude Include="src\SquaresSortedArray.h" />
     <ClInclude Include="src\ThirdMaximumNumber.h" />
     <ClInclude Include="src\TwoSumTarget.h" />

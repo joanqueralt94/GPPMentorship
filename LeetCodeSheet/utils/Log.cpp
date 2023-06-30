@@ -18,6 +18,18 @@ namespace Log
 		}
 	}
 
+	void PrintIntVectorofVector(const std::vector<std::vector<int>>& intVectors)
+	{
+		for (int i = 0; i < intVectors.size(); i++)
+		{
+			for (int j = 0; j < intVectors.size() - 1; j++)
+			{
+				std::cout << intVectors[i][j] << " ";
+			}
+			
+		}
+	}
+
 	void PrintStringVector(const std::vector<std::string>& stringVector)
 	{
 		for (int i = 0; i < stringVector.size(); ++i)
