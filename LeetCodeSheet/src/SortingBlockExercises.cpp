@@ -80,5 +80,35 @@ std::vector<std::vector<int>> SortingBlockExercises::minimumAbsDifference(std::v
 
 int SortingBlockExercises::maximumGap(std::vector<int>& nums)
 {
-	return 0;
+	if (nums.size() < 2)
+	{
+		return 0;
+	}
+
+	sort(nums.begin(), nums.end());
+
+	int maxGap = 0;
+
+	for (int i = 0; i < nums.size() - 1; i++)
+	{
+		int diff = nums[i + 1] - nums[i];
+		maxGap = std::max(maxGap, diff);
+	}
+
+	return maxGap;
+}
+
+std::vector<int> SortingBlockExercises::topKFrequent(std::vector<int>& nums, int k)
+{
+	std::unordered_map<int, int> table;
+
+
+	for (int i = 0; i < nums.size(); i++)
+	{
+		table[i] = nums[i];
+	}
+
+
+
+	return std::vector<int>();
 }

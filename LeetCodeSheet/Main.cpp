@@ -364,7 +364,9 @@ void FindNumbersDisappearedArrayExercise()
 }
 */
 
+
 //Sorting block Exercises
+/*
 void SortColorsExercise()
 {
 	SortingBlockExercises exercise;
@@ -425,7 +427,6 @@ void MinimumAbsoluteDifference()
 	//Log::PrintIntVectorofVector(exercise.minimumAbsDifference(nums3));
 }
 
-
 void MaximumGapExercise()
 {
 	SortingBlockExercises exercise;
@@ -438,11 +439,26 @@ void MaximumGapExercise()
 
 }
 
+void TopKFrequentElementsExercise()
+{
+	SortingBlockExercises exercise;
+
+	std::vector<int> nums = {1,1,1,2,2,3};
+	std::vector<int> nums2 = {1};
+	int k = 2;
+	int k2 = 1;
+
+	Log::PrintIntVector(exercise.topKFrequent(nums, k));
+	Log::PrintIntVector(exercise.topKFrequent(nums2, k2));
+
+}
+
+*/
 
 int main()
 {
 
-	MaximumGapExercise();
+	
 
 	system("pause");
 	return 0;

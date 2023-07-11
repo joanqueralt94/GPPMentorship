@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="QueueAndStackExercises.cpp" />
     <ClCompile Include="src\CheckIfExistNandDouble.cpp" />
     <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersDisappearedArray.cpp" />
@@ -159,6 +160,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="QueueAndStackExercises.h" />
     <ClInclude Include="src\CheckIfExistNandDouble.h" />
     <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersDisappearedArray.h" />

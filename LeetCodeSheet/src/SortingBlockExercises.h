@@ -11,5 +11,6 @@ public:
 	int findKthLargest(std::vector<int>& nums, int k);
 	std::vector<std::vector<int>> minimumAbsDifference(std::vector<int>& arr);
 	int maximumGap(std::vector<int>& nums);
+	std::vector<int> topKFrequent(std::vector<int>& nums, int k);
 };
 
