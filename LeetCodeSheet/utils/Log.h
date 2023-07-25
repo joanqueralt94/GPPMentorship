@@ -5,6 +5,7 @@
 #include <algorithm>
 #include <queue>
 #include <unordered_map>
+#include <stack>
 
 namespace Log
 {

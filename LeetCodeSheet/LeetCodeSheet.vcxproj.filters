@@ -105,7 +105,10 @@
     <ClCompile Include="src\SortingBlockExercises.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="QueueAndStackExercises.cpp">
+    <ClCompile Include="src\QueueAndStackExercises.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RecursionOneExercises.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -197,7 +200,10 @@
     <ClInclude Include="src\SortingBlockExercises.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="QueueAndStackExercises.h">
+    <ClInclude Include="src\QueueAndStackExercises.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="RecursionOneExercises.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

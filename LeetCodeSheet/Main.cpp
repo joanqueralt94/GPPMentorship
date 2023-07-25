@@ -26,6 +26,7 @@
 #include "src/ThirdMaximumNumber.h"
 #include "src/FindNumbersDisappearedArray.h"
 #include "src/SortingBlockExercises.h"
+#include "src/QueueAndStackExercises.h"
 
 //Exercises till Array block (included)
 /*
@@ -455,10 +456,29 @@ void TopKFrequentElementsExercise()
 
 */
 
+
+//Queue and Stack exercises
+void DailyTemperaturesQueueAndStackExercises()
+{
+	QueueAndStackExercises exercise;
+
+	std::vector<int> temperatures = {73,74,75,71,69,72,76,73};
+	std::vector<int> temperatures2 = {30,40,50,60};
+	std::vector<int> temperatures3 = {30,60,90};
+
+	Log::PrintIntVector(exercise.dailyTemperatures(temperatures));
+	Log::PrintIntVector(exercise.dailyTemperatures(temperatures2));
+	Log::PrintIntVector(exercise.dailyTemperatures(temperatures3));
+}
+
+
+
+
+
 int main()
 {
 
-	
+	DailyTemperaturesQueueAndStackExercises();
 
 	system("pause");
 	return 0;

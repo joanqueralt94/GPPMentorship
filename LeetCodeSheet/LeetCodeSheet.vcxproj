@@ -127,7 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="QueueAndStackExercises.cpp" />
+    <ClCompile Include="RecursionOneExercises.cpp" />
     <ClCompile Include="src\CheckIfExistNandDouble.cpp" />
     <ClCompile Include="src\DuplicateZeros.cpp" />
     <ClCompile Include="src\FindNumbersDisappearedArray.cpp" />
@@ -142,6 +142,7 @@
     <ClCompile Include="src\MoveZeroes.cpp" />
     <ClCompile Include="src\NumberOfStepsToZero.cpp" />
     <ClCompile Include="src\PalindromeNumber.cpp" />
+    <ClCompile Include="src\QueueAndStackExercises.cpp" />
     <ClCompile Include="src\RansomNote.cpp" />
     <ClCompile Include="src\RemoveDuplicatesSortedArray.cpp" />
     <ClCompile Include="src\RemoveElement.cpp" />
@@ -160,7 +161,7 @@
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="QueueAndStackExercises.h" />
+    <ClInclude Include="RecursionOneExercises.h" />
     <ClInclude Include="src\CheckIfExistNandDouble.h" />
     <ClInclude Include="src\DuplicateZeros.h" />
     <ClInclude Include="src\FindNumbersDisappearedArray.h" />
@@ -175,6 +176,7 @@
     <ClInclude Include="src\MoveZeroes.h" />
     <ClInclude Include="src\NumberOfStepsToZero.h" />
     <ClInclude Include="src\PalindromeNumber.h" />
+    <ClInclude Include="src\QueueAndStackExercises.h" />
     <ClInclude Include="src\RansomNote.h" />
     <ClInclude Include="src\RemoveDuplicatesSortedArray.h" />
     <ClInclude Include="src\RemoveElement.h" />
